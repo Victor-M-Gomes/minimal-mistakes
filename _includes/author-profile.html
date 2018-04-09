@@ -81,14 +81,6 @@
         </li>
       {% endif %}
 
-      {% if author.facebook %}
-        <li>
-          <a href="https://www.facebook.com/{{ author.facebook }}" itemprop="sameAs">
-            <i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook
-          </a>
-        </li>
-      {% endif %}
-
       {% if author.google_plus %}
         <li>
           <a href="https://plus.google.com/{{ author.google_plus }}" itemprop="sameAs">
@@ -258,6 +250,14 @@
       {% endif %}
 
       {% include author-profile-custom-links.html %}
+	  
+	  {% if author.facebook %}
+        <li>
+          <a href="https://www.facebook.com/{{ author.facebook }}" itemprop="sameAs">
+            <i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook
+          </a>
+        </li>
+      {% endif %}
     </ul>
   </div>
 </div>

@@ -1,0 +1,23 @@
+# Authors
+
+Victor:
+  name             : "Victor Martins Gomes"
+  avatar           : "/assets/images/eu_min.png"
+  bio              : " 
+    Master student in geophysics at Universidade Federal Fluminense,
+    Niterói, Brazil."
+  location         : "Rio de Janeiro/Brazil"
+  email            : victor.martins.777@gmail.com
+  home             : # null (default), "absolute or relative url to link to author home"
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  lattes           : 9340885682146998
+  github           : Victor-M-Gomes
+  linkedin         : victor-m-gomes
+  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
+  telephone        : +55-21-9-6939-9672
+  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  rg               : Victor_Martins5
+  orcid            : 0000-0001-7733-2239
+  figshare         : Victor_Martins_Gomes/4113094

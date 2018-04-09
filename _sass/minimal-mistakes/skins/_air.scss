@@ -6,7 +6,7 @@
 $background-color: #eeeeee !default;
 $text-color: #222831 !default;
 $muted-text-color: #393e46 !default;
-$primary-color: #0092ca !default;
+$primary-color: #536654 !default;
 $border-color: mix(#fff, #393e46, 75%) !default;
 $footer-background-color: $primary-color !default;
 $link-color: #393e46 !default;
@@ -16,6 +16,11 @@ $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 
 .page__footer {
   color: #fff !important; // override
+}
+
+/*https://spin.atomicobject.com/2015/04/07/css-multiple-backgrounds/*/
+.page__footer {
+  background-image: linear-gradient(rgba(70, 90, 70, 0.5), rgba(70, 90, 70, 0.5)),  url("/assets/images/footer_img.svg");
 }
 
 .page__footer-follow .social-icons .svg-inline--fa {

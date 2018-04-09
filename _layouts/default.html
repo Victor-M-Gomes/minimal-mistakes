@@ -10,7 +10,8 @@
 -->
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
   <head>
-    {% include head.html %}
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Condensed|Ubuntu+Mono" rel="stylesheet"> 
+	{% include head.html %}
     {% include head/custom.html %}
   </head>
 
@@ -35,7 +36,8 @@
         {% include footer.html %}
       </footer>
     </div>
-
+	
+	<link rel="stylesheet" href="/assets/css/academicons.min.css"/> <!-- http://jpswalsh.github.io/academicons/ -->
     {% include scripts.html %}
 
   </body>

@@ -1,4 +1,43 @@
 ---
-layout: home
+layout: splash
+author: Victor
+header:
+  overlay_color: "#5e616c"
+  overlay_image: "/assets/images/seismicheader.png"
+  overlay_filter: rgba(70, 90, 70, 0.5)
+  caption:
+excerpt: '<font size = "4">“In research, the horizon recedes as we advance, and is no nearer at 60 than it was at 20. As the power of endurance weakens with age, the urgency of pursuit grows more intense... and research is always incomplete.” (Mark Pattison, 1875).</font> <br /><br /> {::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=Victor-M-Gomes&repo=Victor-M-Gomes.github.io&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=Victor-M-Gomes&repo=Victor-M-Gomes.github.io&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
 author_profile: true
+feature_row:
+  - image_path: /assets/images/eu_gala.svg
+    alt: "Me at Ilha Grande's parrot peak"
+    title: ""
+    excerpt: 'This website intends to promote my professional life and ongoing research activities. Moreover it aims at disclosing my work-related material, including my codes, following the <a href="https://opensource.org/">open-source initiative</a> and <a href="http://ropensci.github.io/reproducibility-guide/sections/introduction/">the ideas of reproducible research</a>.  Likewise, trying to be as optimistic as <a href="https://www.nature.com/news/2010/101013/full/467753a.html">Nick Barnes</a>, I hope that what I share can help someone.'
 ---
+<!-- Changing style locally -->
+<style>
+div {
+    text-align: justify;
+    text-justify: inter-word;
+}
+img {
+	height: 300px;
+	-webkit-filter: contrast(100%);
+    filter: contrast(100%);
+}
+</style>
+
+
+<div>
+{% include feature_row id="feature_row" type="right" %}
+
+{% assign author = page.author | default: page.authors[0] | default: site.author %}
+{% assign author = site.data.authors[author] | default: author %}
+
+<p align="center">{% if author.email %}<a href="mailto:{{ author.email }}"><meta itemprop="email" content="{{ author.email }}" /><i class="fas fa-fw fa-envelope-square fa-3x" aria-hidden="true"></i></a>{% endif %}{% if author.linkedin %}<a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs"><i class="fab fa-fw fa-linkedin fa-3x" aria-hidden="true"></i></a>{% endif %}      {% if author.github %}<a href="https://github.com/{{ author.github }}" itemprop="sameAs"><i class="fab fa-fw fa-github fa-3x" aria-hidden="true"></i></a>{% endif %}
+{% if author.rg %}<a href="https://www.researchgate.net/profile/{{ author.rg }}" itemprop="sameAs"><i class="ai fa-fw ai-researchgate ai-3x" aria-hidden="true"></i></a>{% endif %}
+{% if author.orcid %}<a href="https://orcid.org/{{ author.orcid }}" itemprop="sameAs"><i class="ai fa-fw ai-orcid ai-3x" aria-hidden="true"></i></a>{% endif %}  
+{% if author.figshare %}<a href="https://figshare.com/authors/{{ author.figshare }}" itemprop="sameAs"><i class="ai fa-fw ai-figshare-square ai-3x" aria-hidden="true"></i></a>{% endif %}
+{% if author.telephone %}<a href="tel:{{ author.telephone }}" itemprop="phone"><i class="fab fa-fw fa-whatsapp fa-3x aria-hidden="true"></i></a>{% endif %} 
+{% if author.lattes %}<a href=" http://lattes.cnpq.br/{{ author.lattes }}" itemprop="sameAs"><i class="ai fa-fw ai-lattes fa-3x" aria-hidden="true"></i></a>{% endif %} </p>
+</div>
