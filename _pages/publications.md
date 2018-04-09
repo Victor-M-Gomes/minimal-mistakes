@@ -99,7 +99,7 @@ permalink: /publications/
 ### If you want to download the .bib file with these references, use the link below: 
 {:style="text-align:center;"}
 
-<p style="text-align:center"><a href="/assets/bibfile/publications.bib" download="Bibfile">
+<p style="text-align:center"><a href="/assets/bibfile/publications.bib" download="victor.bib">
 	<i class="far fa-fw fa-arrow-alt-circle-down fa-4x" aria-hidden="true"></i>
 </a>
 </p>
