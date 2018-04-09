@@ -24,11 +24,26 @@ My short-time goal is to continue on the academia through a PhD position.
 
 ## Summary of past experiences
 
-  * **Research project/internship**: Stratigraphic, Sedimentological and Geochemical
-Characterization of the lagoons: Vermelha and Salgada and the Espinho's marsh (Part
-1) – Acquisition and processing of seismic, GPR and GPS data, geologic and
-stratigraphic study of coastal environments related to the genesis of the lagoons
-Vermelha and Salgada and the Espinho's marsh. (2011 – 2013)
+  * **Master`s project**: Analysis of the Curvelet transform in post-stack seismic data
+denoising focusing on conditioning for acoustic inversion. Three methodologies were
+compared, the simpler one involving magnitude-wise truncation (hard thresholding) of
+coeficients in the Curvelet domain, while the other two considered the spatial context
+of neighbor coeficients, by computing their joint probability distribution, in a Bayesian rule for thresholding. Moreover, the last two
+assigned a Laplacian prior to the coeficients in each Curvelet sub-band of seismic data.
+Besides empirically proving the validity of the prior to seismic data, one of the
+methodologies is a novelty and showed good performance for both white and bandlimited
+(correlated) noise.
+  * **Bachelor`s final project**: A study of three algorithms of seismic acoustic inversion (seismic trace inversion) and consequently seismic deconvolution and their sensibilities
+to wavelets estimated using a couple of seismic wavelet estimation methods. The study
+involved implementing algorithms of seismic inversion, deconvolution and seismic
+wavelet estimation and then, to analyze the behavior of the first in relation to the
+wavelets estimated.
+  * **President of the Geoscientific Student Society (GSS) of UFF, including SEG,
+EAGE and AAPG student chapters**: Organization of lectures sponsored by SEG
+and courses, exchange of knowledge and experiences among students of geophysics,
+encouraging teamwork and helping to organize events and projects at the university.
+More recently, organized the third LAGSC (Latin American Geosciences Student
+Conference), held between July, 26 and August, 1 of 2015. (2012 – 2015)
   * **PIBIC research project/internship**: 3D Seismic data Compression using the Wavelet
 Transform (Continuation) - Advanced signal processing,
 processing and image compression in the wavelet transform domain. Implementation
@@ -37,31 +52,16 @@ FORTRAN 90 language for the compression of seismic signals, 2D and 3D, pre and
 post-stack. Study of codification and quantization techniques in order to achieve even
 beter compression rates in the wavelet domain, as the SPIHT (Set partitioning in
 hierarchical trees). (2012 – 2014)
-  * **President of the Geoscientific Student Society (GSS) of UFF, including SEG,
-EAGE and AAPG student chapters**: Organization of lectures sponsored by SEG
-and courses, exchange of knowledge and experiences among students of geophysics,
-encouraging teamwork and helping to organize events and projects at the university.
-More recently, organized the third LAGSC (Latin American Geosciences Student
-Conference), held between July, 26 and August, 1 of 2015. (2012 – 2015)
-  * **Bachelor`s final project**: A study of three algorithms of seismic acoustic inversion (seismic trace inversion) and consequently seismic deconvolution and their sensibilities
-to wavelets estimated using a couple of seismic wavelet estimation methods. The study
-involved implementing algorithms of seismic inversion, deconvolution and seismic
-wavelet estimation and then, to analyze the behavior of the first in relation to the
-wavelets estimated.
-  * **Master`s project**: Analysis of the Curvelet transform in post-stack seismic data
-denoising focusing on conditioning for acoustic inversion. Three methodologies were
-compared, the simpler one involving magnitude-wise truncation (hard thresholding) of
-coeficients in the Curvelet domain, while the other two considered the spatial context
-of neighbor coeficients in a Bayesian rule for thresholding. Moreover, the last two
-assigned a Laplacian prior to the coeficients in each Curvelet sub-band of seismic data.
-Besides empirically proving the validity of the prior to seismic data, one of the
-methodologies is a novelty and showed good performance for both white and bandlimited
-(correlated) noise.
+  * **Research project/internship**: Stratigraphic, Sedimentological and Geochemical
+Characterization of the lagoons: Vermelha and Salgada and the Espinho's marsh (Part
+1) – Acquisition and processing of seismic, GPR and GPS data, geologic and
+stratigraphic study of coastal environments related to the genesis of the lagoons
+Vermelha and Salgada and the Espinho's marsh. (2011 – 2013)  
 
 ## Grants and Fellowships
 
-  * CAPES (Brazilian Ministry of Higher Education) scholarship. (2016 –2016)
-  * PACE Travel Grant – 69th EAGE Conference and Exhibition. (2016)
+  * PACE Travel Grant – 69th EAGE Conference and Exhibition. (2017)
+  * CAPES (Brazilian Ministry of Higher Education) scholarship. (2016 –2017)
   * SLS Travel Grant – SEG/Chevron Student Leadership Symposium. (2015)
 	
 ## Languages 
@@ -73,7 +73,7 @@ methodologies is a novelty and showed good performance for both white and bandli
 ## Courses
 
   * **SEG Distinguished Instructor Short-Course**: Geophysical Eletromagnetics:
-Fundamentals and Applications, Doug Oldenburg. (2016)
+Fundamentals and Applications, Doug Oldenburg. (2017)
   * **SEG/Chevron Student Leadership Symposium**: Symposium on leadership,
 teamwork and communication skills. (2015)
   * **EAGE Education Tour Course**: Seismic Fracture Characterization: Concepts and
