@@ -109,7 +109,7 @@ EXPOGEF. (2017)
 ### My curriculum vitae can be downloaded here: 
 {:style="text-align:center;"}
 
-<p style="text-align:center"><a href="/Victor-M-Gomes.github.io/assets/CV/Victor_Martins_Gomes_Curriculum" download="victorcurriculum"><i class="far fa-fw fa-arrow-alt-circle-down fa-3x" aria-hidden="true"></i></a></p>
+<p style="text-align:center"><a href="/Victor-M-Gomes.github.io/assets/CV/Victor_Martins_Gomes_Curriculum.pdf" download="victorcurriculum.pdf"><i class="far fa-fw fa-arrow-alt-circle-down fa-3x" aria-hidden="true"></i></a></p>
 
 
 
