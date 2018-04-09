@@ -30,7 +30,7 @@ estimation methods were implemented in MATLAB. Synthetic data were used.
 ### You can downloaded my monograph here: 
 {:style="text-align:center;"}
 
-<p style="text-align:center"><a href="https://drive.google.com/file/d/19GnWMHBnsUkWI0_v6w1-eNw6eR5pKojO/view?usp=sharing" download="victormonograph"><i class="far fa-fw fa-arrow-alt-circle-down fa-3x" aria-hidden="true"></i></a></p>
+<p style="text-align:center"><a href="https://drive.google.com/file/d/19GnWMHBnsUkWI0_v6w1-eNw6eR5pKojO/view?usp=sharing" rel="noopener" target="_blank"><i class="far fa-fw fa-arrow-alt-circle-down fa-3x" aria-hidden="true"></i></a></p>
 
 ## MSc --- Analysis of noise supression using the curvelet transform in post-stack seismic data 
 **(in Portuguese: *Análise da atenuação de ruídos via Transformada Curvelet em dados sísmicos pós-empilhamento*)**
@@ -55,4 +55,4 @@ lead to good estimates upon inversion.
 ### You can downloaded my dissertation here: 
 {:style="text-align:center;"}
 
-<p style="text-align:center"><a href="https://drive.google.com/file/d/1m5lxo0TyIGzYNqcBUxrF0ht2dCRjAFeA/view?usp=sharing" download="victordissertation"><i class="far fa-fw fa-arrow-alt-circle-down fa-3x" aria-hidden="true"></i></a></p>
+<p style="text-align:center"><a href="https://drive.google.com/file/d/1m5lxo0TyIGzYNqcBUxrF0ht2dCRjAFeA/view?usp=sharing" rel="noopener" target="_blank"><i class="far fa-fw fa-arrow-alt-circle-down fa-3x" aria-hidden="true"></i></a></p>
